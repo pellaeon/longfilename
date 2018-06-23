@@ -1,0 +1,9 @@
+#app-sidebar .fileName h3 {
+	white-space: normal;
+	text-overflow: clip;
+	word-wrap: break-word;
+}
+
+#app-sidebar .fileName h3 + div {
+	display: none !important;
+}

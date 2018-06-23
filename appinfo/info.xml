@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>longfilename</id>
+    <name>Long Filename</name>
+    <summary>Don&#39;t truncate long filenames in sidebar anymore</summary>
+    <description><![CDATA[asd]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="pellaeon@cnmc.tw" >Pellaeon Lin</author>
+    <namespace>LongFilename</namespace>
+    <category>customization</category>
+    <bugs>https://github.com/pellaeon/</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Long Filename</name>
+            <route>longfilename.page.index</route>
+        </navigation>
+    </navigations>
+</info>
